@@ -1,0 +1,332 @@
+li.nav-item>a {
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1;
+  transition: 0.2s linear;
+}
+
+.main-navbar .nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* button.btn-quote {
+    background: #ffbe00;
+    height: 50px;
+    border: 3px solid #ffbe00;
+    border-radius: 7px;
+} */
+
+.icon {
+  cursor: pointer;
+  width: 54px;
+  height: 54px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  transition: 0.2s linear;
+}
+
+.icon1 {
+  width: 54px;
+  height: 54px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  color: white;
+  transition: 0.2s linear;
+}
+
+.icon-btn {
+  margin-left: 15px;
+}
+
+.arrow-icon {
+  background: #202529;
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  color: white;
+}
+
+.icon1:hover {
+  color: #ffbe00;
+}
+
+.icon:hover {
+  color: #ffbe00;
+}
+
+a.nav-link:hover {
+  color: #ffbe00;
+}
+
+/* HERO SECTION */
+
+.hero-section {
+  height: 100vh;
+}
+
+/* Content Box */
+.content-box {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 512px;
+  height: 350px;
+  margin-top: 14rem;
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+.heaing {
+  color: white;
+  font-weight: 700;
+  font-size: 39px;
+  padding-bottom: 2rem;
+}
+
+.card-subheading {
+  color: #ffbe00;
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+}
+
+label.card-subheadingTow {
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 12px;
+  padding-top: 15px;
+}
+
+.card-subheadingTow {
+  color: white;
+  font-size: 17px;
+  padding-bottom: 1rem;
+}
+
+/* HOVER */
+
+/* .img-fluid:hover {
+    transform: scale(1.1);
+} */
+.btn-warning:hover {
+  background: white;
+  color: black;
+  border: none;
+}
+
+.btn {
+  transition: 0.2s linear;
+}
+
+.client-section {
+  background: #f8f8f8;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.client-section .col {
+  border-right: 1px solid #ddd;
+  padding: 20px;
+}
+
+.client-section .col:last-child {
+  border-right: none;
+}
+
+.client-section img {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.client-section img:hover {
+  opacity: 1;
+}
+
+
+.marquee-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 10s linear infinite;
+}
+
+
+.logo-item {
+  font-size: 18px;
+  font-weight: 600;
+  color: #555;
+  padding: 0 50px;
+  border-right: 1px solid #ddd;
+  white-space: nowrap;
+}
+
+/* Animation */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Hover করলে pause হবে */
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+/* CARD */
+
+.about-card {
+  background: black;
+  color: white;
+  border-radius: 7px;
+}
+
+.img {
+  border: 15px solid #ffbe00;
+  padding: 0;
+  margin-right: 30px;
+
+}
+
+/* About Section */
+.about-card {
+  background: #2a2a2a;
+}
+
+.about-card label {
+  color: #ffbe00;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.about-card h2 {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.about-card p {
+  color: #aaa;
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+/* Checklist */
+.check-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.check-list li {
+  color: #ccc;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.check-list li::before {
+  content: "✔ ";
+  color: #ffbe00;
+}
+
+/* Yellow Card */
+.yellow-card {
+  background: #ffbe00;
+  border-radius: 8px;
+  padding: 22px 20px;
+  position: absolute;
+  bottom: 19px;
+  right: 32px;
+  width: 262px;
+  height: 178px;
+}
+
+.contact-text {
+  font-weight: 700;
+  font-size: 17px;
+  color: #000;
+  justify-content: center;
+  /* display: flex; */
+  align-items: center;
+}
+
+.contact-details {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 16px;
+  padding-top: 3rem;
+}
+
+.text-dark:hover {
+  color: red;
+}
+
+/* SUCCESS CARD  */
+
+.head {
+  font-size: 41px;
+  /* padding-bottom: 10px; */
+}
+
+/* future project */
+
+.project-head {
+  letter-spacing: 9px;
+  padding-bottom: 10px;
+}
+
+
+/* Card */
+.portfolio-card {
+  cursor: pointer;
+}
+
+/* Image — hover এ scale হবে */
+.portfolio-img {
+  transition: 0.4s ease;
+  display: block;
+}
+
+.portfolio-card:hover .portfolio-img {
+  transform: scale(1.1);
+}
+
+/* Overlay — normally hidden */
+.portfolio-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(4px);
+  opacity: 0;
+  transition: 0.4s ease;
+}
+
+/* Hover এ দেখাবে */
+.portfolio-card:hover .portfolio-overlay {
+  opacity: 1;
+}
